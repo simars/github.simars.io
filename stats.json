@@ -5,16 +5,16 @@
       "path---improve-ngfor-usability-and-performance-with-trackby-aed135a3ae2714ff3ab8.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-1b31f301b8637b3c1b64.js",
-      "component---src-pages-index-js-1b31f301b8637b3c1b64.js.map"
+      "component---src-pages-index-js-1cb2a6045573cdac54cc.js",
+      "component---src-pages-index-js-1cb2a6045573cdac54cc.js.map"
     ],
     "path---custom-transitive-validators-in-reactive-forms-angular": [
       "path---custom-transitive-validators-in-reactive-forms-angular-060dfbc7141ff35833e2.js",
       "path---custom-transitive-validators-in-reactive-forms-angular-060dfbc7141ff35833e2.js.map"
     ],
     "path---blog": [
-      "path---blog-4d657adf34a771c9b758.js",
-      "path---blog-4d657adf34a771c9b758.js.map"
+      "path---blog-c5c4b0e224c6cdf10b3e.js",
+      "path---blog-c5c4b0e224c6cdf10b3e.js.map"
     ],
     "path---": [
       "path----6bb8d3498a44ed0a3478.js",
@@ -28,13 +28,17 @@
       "component---src-templates-blog-post-js-0668ad1c8e9fa38db975.js",
       "component---src-templates-blog-post-js-0668ad1c8e9fa38db975.js.map"
     ],
+    "path---kotlin-extension-functions-make-any-class-have-what-you-wish-for": [
+      "path---kotlin-extension-functions-make-any-class-have-what-you-wish-for-2d1409854277530434bc.js",
+      "path---kotlin-extension-functions-make-any-class-have-what-you-wish-for-2d1409854277530434bc.js.map"
+    ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-83c99a51dce23684a6e6.js",
       "component---src-layouts-index-js-83c99a51dce23684a6e6.js.map"
     ],
     "path---index": [
-      "path---index-c987b30e89922f657da4.js",
-      "path---index-c987b30e89922f657da4.js.map"
+      "path---index-c5c4b0e224c6cdf10b3e.js",
+      "path---index-c5c4b0e224c6cdf10b3e.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -48,18 +52,22 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---testing-angular-directives-with-test-component": [
+      "path---testing-angular-directives-with-test-component-75292d6f19da6a9f7ee5.js",
+      "path---testing-angular-directives-with-test-component-75292d6f19da6a9f7ee5.js.map"
+    ],
     "component---src-pages-blog-js": [
-      "component---src-pages-blog-js-b51d3b7f42e7c24e58a8.js",
-      "component---src-pages-blog-js-b51d3b7f42e7c24e58a8.js.map"
+      "component---src-pages-blog-js-91bf70045e90c4eaefb6.js",
+      "component---src-pages-blog-js-91bf70045e90c4eaefb6.js.map"
     ],
     "path---manage-scrolls-on-router-outlets-angular": [
       "path---manage-scrolls-on-router-outlets-angular-83a757871103bf34b8a4.js",
       "path---manage-scrolls-on-router-outlets-angular-83a757871103bf34b8a4.js.map"
     ],
     "app": [
-      "app-81f442b947b98e97a603.js",
+      "app-ee58ca2c239c1a47bc2f.js",
       "build-js-styles.css",
-      "app-81f442b947b98e97a603.js.map",
+      "app-ee58ca2c239c1a47bc2f.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
@@ -73,6 +81,10 @@
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
       "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---angular-test-components-unit-shallow-deep": [
+      "path---angular-test-components-unit-shallow-deep-7486e97ba964598585c9.js",
+      "path---angular-test-components-unit-shallow-deep-7486e97ba964598585c9.js.map"
     ]
   }
 }
