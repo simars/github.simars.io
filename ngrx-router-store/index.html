@@ -1,0 +1,243 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><link rel="preload" href="/component---src-layouts-index-js-8db460f2702972e7e78d.js" as="script"/><link rel="preload" href="/component---src-templates-blog-post-js-0668ad1c8e9fa38db975.js" as="script"/><link rel="preload" href="/path---ngrx-router-store-408b3b60e2416bea4264.js" as="script"/><link rel="preload" href="/app-8a94241607d296c0b22a.js" as="script"/><link rel="preload" href="/commons-403258ad126d5c26671b.js" as="script"/><title data-react-helmet="true">Simars.io</title><meta data-react-helmet="true" name="description" content="Simar Paul Singh | Personal Portal and Blog "/><meta data-react-helmet="true" name="keywords" content="simars, blog, programming, coding, learning, tutorial, angular, ES, ECMAScript, JS, JavaScript, TS ,TypeScript gatsby, react, Java, Kotlin, Spring"/><style id="gatsby-inlined-css">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}.row{-ms-flex-direction:row;flex-direction:row}.column,.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-align:center;align-items:center;-ms-flex-pack:distribute;justify-content:space-around}.column{-ms-flex-direction:column;flex-direction:column}a{border:none;background:transparent url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTYuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+CjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB3aWR0aD0iNjEycHgiIGhlaWdodD0iNjEycHgiIHZpZXdCb3g9IjAgMCA2MTIgNjEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA2MTIgNjEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPGcgaWQ9IkxpbmsiPgoJCTxnPgoJCQk8cGF0aCBkPSJNMzUwLjE3OSwyMTUuNDYyYy02LjY5My00LjMwMy0xNC40OTctNS40Ny0yMS43MDctMy44NjNjLTcuMTM0LDEuNTg3LTEzLjY3NCw1Ljg5LTE3LjkzOSwxMi41MjcKCQkJCWMtNC4yODQsNi42NzQtNS40NSwxNC40MzktMy44NjIsMjEuNjExYzEuNTY3LDcuMTcyLDUuODcxLDEzLjc1LDEyLjUyNiwxOC4wMTZjMjcuNjc0LDE3LjcyOSw0NC4xNzksNDcuODMyLDQ0LjE3OSw4MC40OTcKCQkJCWMwLDI1LjU1MS05Ljk0NSw0OS41NTMtMjcuOTk5LDY3LjYwNmwtMTE0Ljc1LDExNC43NWMtMTguMDczLDE4LjA3My00Mi4wOTQsMjguMDE5LTY3LjYyNiwyOC4wMTkKCQkJCWMtNTIuNzI4LDAtOTUuNjI1LTQyLjg5Ny05NS42MjUtOTUuNjI1YzAtMjUuNTUxLDkuOTQ1LTQ5LjU1MywyNy45OTktNjcuNjA2bDU0LjQzLTU0LjQ0OWM1LjczNy01LjczNyw4LjUzLTEzLjI5Miw4LjQxNS0yMC44MDgKCQkJCWMtMC4xMzQtNy4xNzItMi45MjYtMTQuMjg3LTguNDE1LTE5Ljc1N2MtNS42MDQtNS42MDQtMTIuOTQ4LTguNDE1LTIwLjI3Mi04LjQxNWMtNy4zNDQsMC0xNC42ODgsMi43OTItMjAuMjcyLDguNDE1CgkJCQlsLTU0LjQzLDU0LjQ0OUMxNS45MTIsMzc5LjcwOCwwLDQxOC4xMywwLDQ1OWMwLDg0LjM2LDY4LjY0LDE1MywxNTMsMTUzYzQwLjg3LDAsNzkuMjkyLTE1LjkxMiwxMDguMTktNDQuODI5bDExNC43NS0xMTQuNzUKCQkJCWMyOC44OTctMjguODU5LDQ0LjgxLTY3LjMwMSw0NC44MS0xMDguMTcxQzQyMC43NSwyOTEuOTQzLDM5NC4zNzcsMjQzLjgwNiwzNTAuMTc5LDIxNS40NjJ6IE00NTksMAoJCQkJYy00MC44NywwLTc5LjI5MiwxNS45MTItMTA4LjE5LDQ0LjgyOWwtMTE0Ljc1LDExNC43NWMtMjguODk4LDI4Ljg1OS00NC44MSw2Ny4zMDEtNDQuODEsMTA4LjE1MgoJCQkJYzAsNTIuMzA3LDI2LjM3NCwxMDAuNDYzLDcwLjU3MSwxMjguODA3YzYuNjk0LDQuMjgzLDE0LjQ5Nyw1LjQ1LDIxLjcwNywzLjg0NGM3LjEzMy0xLjU2OCwxMy42NzQtNS44NzEsMTcuOTM5LTEyLjUwOAoJCQkJYzQuMjg0LTYuNjkzLDUuNDUxLTE0LjQ1OCwzLjg2My0yMS42M2MtMS41NjgtNy4xNzItNS44NzEtMTMuNzUxLTEyLjUyNy0xNy45OTdjLTI3LjY1NS0xNy43NDgtNDQuMTc5LTQ3Ljg1MS00NC4xNzktODAuNTE2CgkJCQljMC0yNS41NTEsOS45NDUtNDkuNTUzLDI3Ljk5OS02Ny42MDdsMTE0Ljc1LTExNC43NUM0MDkuNDQ3LDY3LjMyLDQzMy40NjgsNTcuMzc1LDQ1OSw1Ny4zNzUKCQkJCWM1Mi43MjgsMCw5NS42MjUsNDIuODk3LDk1LjYyNSw5NS42MDZjMCwyNS41NTEtOS45NDUsNDkuNTUzLTI3Ljk5OSw2Ny42MDdsLTU0LjQzLDU0LjQzYy01LjczNyw1LjczNy04LjUzLDEzLjI5Mi04LjQxNSwyMC44MDgKCQkJCWMwLjEzNCw3LjE3MiwyLjkyNiwxNC4yODcsOC40MTUsMTkuNzU2YzUuNjA0LDUuNjA0LDEyLjk0Nyw4LjM5NiwyMC4yOTIsOC4zOTZjNy4zNDQsMCwxNC42ODgtMi43OTIsMjAuMjcyLTguMzk2bDU0LjQzLTU0LjQ0OQoJCQkJQzU5Ni4wODgsMjMyLjI5Miw2MTIsMTkzLjg1MSw2MTIsMTUyLjk4MUM2MTIsNjguNjQsNTQzLjM2LDAsNDU5LDB6Ii8+CgkJPC9nPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=) 0 no-repeat;background-size:.7em;color:#000;padding-left:1em;border-radius:2px;text-decoration:none}a:focus,a:hover{color:#000;outline-width:0;text-decoration:underline}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.45em georgia,serif;box-sizing:border-box;overflow-y:scroll}*,:after,:before{box-sizing:inherit}body{color:rgba(0,0,0,.8);font-family:georgia,serif;font-weight:400;word-wrap:break-word;-webkit-font-kerning:normal;font-kerning:normal;-ms-font-feature-settings:"kern","liga","clig","calt";-webkit-font-feature-settings:"kern","liga","clig","calt";font-feature-settings:"kern","liga","clig","calt","kern"}img{max-width:100%;margin:0 0 1.45rem;padding:0}h1{font-size:2.25rem}h1,h2{margin:0 0 1.45rem;padding:0;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h2{font-size:1.62671rem}h3{font-size:1.38316rem}h3,h4{margin:0 0 1.45rem;padding:0;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h4{font-size:1rem}h5{font-size:.85028rem}h5,h6{margin:0 0 1.45rem;padding:0;color:inherit;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;font-weight:700;text-rendering:optimizeLegibility;line-height:1.1}h6{font-size:.78405rem}hgroup{margin:0 0 1.45rem;padding:0}ol,ul{margin:0 0 1.45rem 1.45rem;padding:0;list-style-position:outside;list-style-image:none}dd,dl,figure,p{margin:0 0 1.45rem;padding:0}pre{padding:0;font-size:.85rem;line-height:1.42;background:rgba(0,0,0,.04);border-radius:3px;overflow:auto;word-wrap:normal;padding:1.45rem}pre,table{margin:0 0 1.45rem}table{padding:0;font-size:1rem;line-height:1.45rem;border-collapse:collapse;width:100%}fieldset{margin:0 0 1.45rem;padding:0}blockquote{margin:0 1.45rem 1.45rem;padding:0}form,iframe,noscript{margin:0 0 1.45rem;padding:0}hr{margin:0 0 calc(1.45rem - 1px);padding:0;background:rgba(0,0,0,.2);border:none;height:1px}address{margin:0 0 1.45rem;padding:0}b,dt,strong,th{font-weight:700}li{margin-bottom:.725rem}ol li,ul li{padding-left:0}li>ol,li>ul{margin-left:1.45rem;margin-bottom:.725rem;margin-top:.725rem}blockquote :last-child,li :last-child,p :last-child{margin-bottom:0}li>p{margin-bottom:.725rem}code,kbd,samp{font-size:.85rem;line-height:1.45rem}abbr,abbr[title],acronym{border-bottom:1px dotted rgba(0,0,0,.5);cursor:help}abbr[title]{text-decoration:none}td,th,thead{text-align:left}td,th{border-bottom:1px solid rgba(0,0,0,.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding:.725rem .96667rem calc(.725rem - 1px)}td:first-child,th:first-child{padding-left:0}td:last-child,th:last-child{padding-right:0}code,tt{background-color:rgba(0,0,0,.04);border-radius:3px;font-family:SFMono-Regular,Consolas,Roboto Mono,Droid Sans Mono,Liberation Mono,Menlo,Courier,monospace;padding:0;padding-top:.2em;padding-bottom:.2em}pre code{background:none;line-height:1.42}code:after,code:before,tt:after,tt:before{letter-spacing:-.2em;content:" "}pre code:after,pre code:before,pre tt:after,pre tt:before{content:""}@media only screen and (max-width:480px){html{font-size:100%}}</style></head><body><div id="___gatsby"><div data-reactroot="" data-reactid="1" data-react-checksum="-1524645894"><!-- react-empty: 2 --><div class="row" style="background:#333;margin-bottom:0px;" data-reactid="3"><div style="margin:0 auto;max-width:960px;padding:1.45rem 1.0875rem;" data-reactid="4"><h1 style="margin:0;" data-reactid="5"><a style="color:white;text-decoration:none;" href="/" data-reactid="6">Simars.io</a></h1></div></div><nav style="background:#f4f4f4;padding-top:10px;" data-reactid="7"><ul style="list-style:none;display:flex;justify-content:space-evenly;" data-reactid="8"><li data-reactid="9"><a href="/" data-reactid="10">Home</a></li><li data-reactid="11"><a href="/about" data-reactid="12">About</a></li><li data-reactid="13"><a href="/blog" data-reactid="14">Blog</a></li></ul></nav><div style="margin:0 auto;max-width:960px;padding:0px 1.0875rem 1.45rem;padding-top:0;" data-reactid="15"><div data-reactid="16"><a href="/blog" data-reactid="17">Go Back</a><hr data-reactid="18"/><h1 data-reactid="19">NgRx Router Store | Reduce &amp; Select Route Params</h1><h4 data-reactid="20"><!-- react-text: 21 -->Posted by <!-- /react-text --><!-- react-text: 22 -->Simar Paul Singh<!-- /react-text --><!-- react-text: 23 --> on <!-- /react-text --><!-- react-text: 24 -->2019-01-22<!-- /react-text --></h4><div data-reactid="25"><p><a href="https://github.com/ngrx/platform"><strong>NgRx</strong></a> is an implementation of <a href="https://github.com/facebook/flux/tree/master/examples/flux-concepts">Flux Pattern</a> for angular leveraging R<a href="https://angular.io/guide/rx-library">xJs</a>. Inspired by <a href="https://redux.js.org/"><strong>Redux</strong></a> it uses a centralized state store approach.</p>
+<h3>What’s the genius behind?</h3>
+<p>State is centralized and all mutations are requested by dispatching discrete actions. <code>Reducers</code> are pure functions <code>(action, current-state ) => (new-state)</code> which apply <code>action</code> to the <code>current-state</code> to produce <code>new-state</code> (new instance) with changes applied.</p>
+<p><span class="markup--quote markup--p-quote is-other" name="a19f3412a81" data-creator-ids="83ca84c410fe">Centralizing your application’s state and logic enables powerful capabilities like undo/redo, state persistence, and much more.</span></p>
+<p>We can watch changes, react with side-effects, use “time-travel debugging”, and send complete error reports to a server.</p>
+<p>Redux DevTools make it easy to trace when, where, why, and how application’s state changed.</p>
+<p>Most of the advantages of using this kind of architecture stem from use of centralized state store. In good a <a href="https://github.com/ngrx/platform"><strong>NgRx</strong></a> implementation <strong><em>Container components</em></strong> must depend only on the <strong>Store</strong> for <em>state (selectors and actions)</em>.</p>
+<h3>Router is an essential part of an App’s state</h3>
+<p>If an application uses routes / navigation, the <strong>routing becomes an essential part of your application state</strong>.</p>
+<p>Without incorporating <code>Router</code> in your <code>Store</code>, container components can’t depend on store alone. <code>Components</code> then also need <code>Router</code> / <code>ActivatedRouteSnapshot</code> to figure out <code>path</code> / <code>query</code> <em>params</em> needed to select state of slice from <code>Store</code> and / or dispatch actions to modify the state slice with respect to the current route.</p>
+<h4>What happens router state isn’t part of your central store?</h4>
+<h4>Code Duplication</h4>
+<blockquote>
+<p>Letting <code>components</code> to extract <code>path</code> / <code>query</code> <em>params</em> from <strong><em>navigation / router-state</em></strong> and then use it to <strong><em>select respective state slices and / or dispatch actions</em></strong> we end up with lot of code duplication between sibling components and unnecessary coupling between parent and children components where a child component may need a router param extracted by parent component along side its own.</p>
+</blockquote>
+<h4>Inconsistency</h4>
+<blockquote>
+<p>Users may navigate to a nested route directly, for example by clicking on a shared link, bookmark or even typing in route in browsers navigation bar. We need route params to establish / select the state for target component trees mounted in one ore more the <code>&#x3C;route-outlets/></code> before anything meaningful can render.</p>
+</blockquote>
+<h4>Unmaintainable</h4>
+<blockquote>
+<p>We can’t replay or jump across state snapshots using the redux dev tools as route changes if weren’t reduced by NgRx, can’t be jumped-to or re-played.</p>
+</blockquote>
+<pre><code>/* src/app/pages/ticket-detail/ticket-detail.component.ts */
+
+import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';  
+import {ActivatedRoute, Router} from '@angular/router';  
+import {concat, Observable, of} from 'rxjs';  
+import {catchError, map, switchMap, tap, combineLatest} from 'rxjs/operators';  
+import {BackendService, Ticket} from '../../services/backend.service';  
+import {select, Store} **from** '@ngrx/store';  
+import {getTickets} **from** '../../reducers/ticket';
+
+@Component({  
+  selector: 'app-ticket-detail',  
+  templateUrl: './ticket-detail.component.html',  
+  styleUrls: ['./ticket-detail.component.css']  
+})  
+export class TicketDetailComponent implements OnInit {  
+
+  ticket$: Observable&#x3C;Ticket>;  
+  tickets$: Observable&#x3C;Ticket[]>;  
+
+  constructor(  
+              private activatedRoute: ActivatedRoute,  
+              private store: Store,  
+              private router: Router) {  
+
+    ...  
+    this.tickets$ = this.store.pipe(select(getTickets));
+
+    this.ticket$ =  
+      activatedRoute.params.pipe(  
+        map(p => p.id),  
+        combineWithLatest(tickets$),  
+        switchMap(([id, tickets]) => tickets[id],  
+        catchError(error => of({error})),  
+        tap(value => this.form.patchValue({...value}))  
+      );  
+  }  
+
+...  
+
+}
+</code></pre>
+<h3>Solution</h3>
+<p>Following the principle of <a href="https://en.wikipedia.org/wiki/Dependency_inversion_principle"><strong>dependency inversion</strong></a>, if <code>Components</code> extract <em>path / query params</em> from <code>Router</code> state just to use them with their interactions with <code>Store</code>, why not let <code>store/selectors</code> and <code>reducers/side-effects</code> deal with the router and let components depend only the Store?</p>
+<p>We need <a href="https://github.com/ngrx/platform/tree/master/modules/router-store"><strong>ngrx-router-store</strong></a>to reduce route changes into the store and dispatch route change events on the actions stream to allow routes and their mutation to be the part of centralized state in the store.</p>
+<p><strong>Let us wire ngrx-router-store to the App’s NgRx store</strong></p>
+<p><code>npm install @ngrx/router-store — save</code></p>
+<p>If like me, you find angular’s router API hard to collect all path params in the route. Wouldn’t it be nice if we could get all routing state data <code>{data, params, queryParams}</code> ?</p>
+<pre><code>/* ./src/app/reducers/router/merged-route.ts */
+import {Data, Params} from '@angular/router';
+
+export interface MergedRoute {
+  url: string;
+  queryParams: Params;
+  params: Params;
+  data: Data;
+}
+</code></pre>
+<p>We can recourse to <a href="https://github.com/ngrx/platform/tree/master/modules/router-store">ngrx-router-store</a> with custom <code>RouterStateSerializer&#x3C;T></code> to give us routing state in a form we like <code>&#x3C;T= MergedRoute></code></p>
+<pre><code>/* src/app/reducers/router/merged-route-serialzer.ts */
+import {RouterStateSerializer} from '@ngrx/router-store';
+import {ActivatedRouteSnapshot, Data, Params, RouterStateSnapshot} from '@angular/router';
+import {MergedRoute} from './merged-route';
+
+
+export class MergedRouterStateSerializer implements RouterStateSerializer&#x3C;MergedRoute> {
+  serialize(routerState: RouterStateSnapshot): MergedRoute {
+    return {
+      url: routerState.url,
+      params: mergeRouteParams(routerState.root, r => r.params),
+      queryParams: mergeRouteParams(routerState.root, r => r.queryParams),
+      data: mergeRouteData(routerState.root)
+    };
+  }
+}
+
+function mergeRouteParams(route: ActivatedRouteSnapshot, getter: (r: ActivatedRouteSnapshot) => Params): Params {
+  if (!route) {
+    return {};
+  }
+  const currentParams = getter(route);
+  const primaryChild = route.children.find(c => c.outlet === 'primary') || route.firstChild;
+  return {...currentParams, ...mergeRouteParams(primaryChild, getter)};
+}
+
+function mergeRouteData(route: ActivatedRouteSnapshot): Data {
+  if (!route) {
+    return {};
+  }
+
+  const currentData = route.data;
+  const primaryChild = route.children.find(c => c.outlet === 'primary') || route.firstChild;
+  return {...currentData, ...mergeRouteData(primaryChild)};
+}
+</code></pre>
+<p>To make router state <code>{params, queryParams, data}: MergedRoute</code> a part of our centralized NgRx store <code>state['router']</code>, we will write a <code>module</code> that can simply be included in your App’s <strong>root</strong> <code>module</code></p>
+<pre><code>/* ./src/app/router/ngrx-router.module.ts */
+
+import {NgModule, Optional, Self} from '@angular/core';
+import {routerReducer, RouterStateSerializer, StoreRouterConfig, StoreRouterConnectingModule} from '@ngrx/router-store';
+import {StoreModule} from '@ngrx/store';
+import {MergedRouterStateSerializer} from './merged-route-serialzer';
+import {Router} from '@angular/router';
+
+export const routerStateConfig = {
+  stateKey: 'router', // state-slice name for routing state
+};
+
+@NgModule({
+  imports: [
+    StoreModule.forFeature(routerStateConfig.stateKey, routerReducer),
+    StoreRouterConnectingModule.forRoot(routerStateConfig),
+  ],
+  exports: [
+    StoreModule,
+    StoreRouterConnectingModule
+  ],
+  providers: [
+    {
+      provide: RouterStateSerializer,
+      useClass: MergedRouterStateSerializer,
+    }
+  ]
+})
+export class NgrxRouterStoreModule {
+
+  constructor(@Self() @Optional() router: Router) {
+    if (router) {
+      console.log('All good, NgrxRouterStoreModule');
+    } else {
+      console.error('NgrxRouterStoreModule must be imported in the same same level as RouterModule');
+
+    }
+  }
+
+}
+</code></pre>
+<p>Let us include the <code>module</code> we defined above into our App’s root module.</p>
+<pre><code>import {ActionReducerMap, MetaReducer, StoreModule} from '@ngrx/store';
+import {storeFreeze} from 'ngrx-store-freeze';
+import {NgModule} from '@angular/core';
+import {StoreDevtoolsModule} from '@ngrx/store-devtools';
+import {environment} from '../../environments/environment';
+import {routes} from './routes';
+import {EffectsModule} from '@ngrx/effects';
+import {effects} from './effects';
+import {NgrxRouterStoreModule} from './router/ngrx-router.module.ts';
+
+
+export const metaReducers: MetaReducer&#x3C;{}>[] =
+  !environment.production ? [storeFreeze] : [];
+
+
+@NgModule({
+  imports: [
+    StoreModule.forRoot(reducers as ActionReducerMap&#x3C;{}>, { metaReducers }),
+    EffectsModule.forRoot(effects),
+    !environment.production ? StoreDevtoolsModule.instrument() : [],
+    NgrxRouterStoreModule,
+    BrowserModule,
+    RouterModule.forRoot(routes:)
+  ]
+})
+export class AppModule {
+}
+</code></pre>
+<p>Router should then be hooked in to your NgRx store. Open redux-dev-tools to see <em>ROUTER_NAVIGATION</em> events with routing state.</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*6ZtplKIR53ejm-0E6HhFdw.png"></p>
+<p>Next we will write selectors for <code>state.router : MergedRoute</code> so we can access to project routing information in any selector and components can be freed from extracting params / queryParams.</p>
+<pre><code>/* src/app/reducers/router/router-state.selectors.ts */
+
+import {createFeatureSelector, createSelector} from '@ngrx/store';  
+import {routerStateConfig} from './ngrx-router.module';  
+import {MergedRouteReducerState} from './index';  
+export const getRouterReducerState = createFeatureSelector&#x3C;MergedRouteReducerState>(routerStateConfig.stateKey);
+export const getMergedRoute = createSelector(getRouterReducerState, (routerReducerState) => routerReducerState.state);
+</code></pre>
+<p>For example, if we have component that renders detail of an entity, <code>Ticket</code> based on the :<code>ticketId</code> path param in the route</p>
+<pre><code>/* src/app/reducers/ticket/ticket.selector.ts */
+
+import {createFeatureSelector, createSelector} from '@ngrx/store';
+import {TicketReducerState} from './ticket.reducers';
+import {ticketStateConfig} from './ticket.state';
+import {getMergedRoute} from '../router/router-state.selectors.ts'
+export const getTicketReducerState = createFeatureSelector&#x3C;TicketReducerState>(ticketStateConfig.stateKey);
+export const getTickets = createSelector(getTicketReducerState, (ticketReducerState) => ticketReducerState.state);
+export const getSelectedTicket = createSelector(getTickets, getMergedRoute,(tickets, mergedRoute) => mergedRoute.params.ticketId);
+</code></pre>
+<p>Finally, here how we can re-write our ticket-detail <code>component</code> to only depend on centralized store</p>
+<pre><code>/* src/app/pages/ticket-detail/ticket-detail.component.ts */
+import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
+import {ActivatedRoute, Router} from '@angular/router';
+import {concat, Observable, of} from 'rxjs';
+import {catchError} from 'rxjs/operators';
+import {BackendService, Ticket} from '../../services/backend.service';
+import {select, Store} from '@ngrx/store';
+import {getSelectedTicket} from '../../reducers/ticket';
+@Component({
+  selector: 'app-ticket-detail',
+  templateUrl: './ticket-detail.component.html',
+  styleUrls: ['./ticket-detail.component.css']
+})
+export class TicketDetailComponent implements OnInit {
+
+  ticket$: Observable&#x3C;Ticket>;
+  
+  constructor(private store: Store) {
+    ...
+    this.ticket$ = this.store.pipe(select(getSelectedTicket));
+  }
+
+...
+
+}
+</code></pre>
+<p>Notice we don’t need to deal with <code>Router</code>, <code>ActivatedRouteSnapshot</code> and battery of <code>RxJs</code> operations to <code>ActivatedRouteSnapshot</code> with <code>store</code> <em>selector</em> <code>getTickets</code>.</p>
+<p>Also, now in your redux-dev-tool, you can work debug easily, replay, jump to any state snapshot, routing actions will be played along.</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*g6umBiF9P8pYSb6cj1NGsA.png"></p>
+<hr>
+<p>This article is also aviable on my <a href="https://medium.com/simars/ngrx-router-store-reduce-select-route-params-6baff607dd9?source=friends_link&#x26;sk=f9c40c45fcd293cb9ada8dfcc436f518"><strong>Medium</strong></a> publication. If you like the artile, or have any comments and suggestions, please <em>clap</em> or leave <em>comments</em> on <a href="https://medium.com/simars/ngrx-router-store-reduce-select-route-params-6baff607dd9?source=friends_link&#x26;sk=f9c40c45fcd293cb9ada8dfcc436f518"><strong>Medium</strong></a>.</p></div></div></div></div></div><script id="webpack-manifest">/*<![CDATA[*/window.webpackManifest={"231608221292675":"app-8a94241607d296c0b22a.js","107818501498521":"component---src-templates-blog-post-js-0668ad1c8e9fa38db975.js","162898551421021":"component---src-pages-404-js-4503918ea3a16cfcdb75.js","263791100135453":"component---src-pages-about-js-c39ac5a375c0d75942a0.js","212839066777427":"component---src-pages-blog-js-6cbd02b284cedde744f2.js","35783957827783":"component---src-pages-index-js-438d7413de26689deece.js","60335399758886":"path----6bb8d3498a44ed0a3478.js","371127763309":"path---improve-ngfor-usability-and-performance-with-trackby-aed135a3ae2714ff3ab8.js","86583290751729":"path---create-generic-angular-pipes-apply-and-applypure-6af8278fe681b6155884.js","190868841189419":"path---testing-angular-directives-with-test-component-75292d6f19da6a9f7ee5.js","223480463421619":"path---manage-scrolls-on-router-outlets-angular-83a757871103bf34b8a4.js","111883881408753":"path---kotlin-extension-functions-make-any-class-have-what-you-wish-for-9938a3379691036481ef.js","126338035962368":"path---rxjs-create-custom-observables-from-event-sources-72f793d9e433f98f788e.js","29526849648376":"path---ngrx-http-effects-should-listen-for-cancel-action-ac5a6d7b1d26b1ba3f2f.js","45993978181358":"path---custom-transitive-validators-in-reactive-forms-angular-060dfbc7141ff35833e2.js","274223600717461":"path---angular-test-components-unit-shallow-deep-1c6b65a005767c269dc1.js","114247097161340":"path---ngrx-router-store-408b3b60e2416bea4264.js","59998260571760":"path---performance-concurrency-2f3d13fa926726713139.js","183491432944557":"path---react-hooks-useeffect-lifecycle-cff928053514d861a4bb.js","7256621977282":"path---es-6-arrow-functions-when-not-to-use-4bdbeddfb52e466ccc26.js","254022195166212":"path---404-a0e39f21c11f6a62c5ab.js","273950069227526":"path---about-a0e39f21c11f6a62c5ab.js","49683490770531":"path---blog-28a7a262df582ff0c71c.js","142629428675168":"path---index-28a7a262df582ff0c71c.js","178698757827068":"path---404-html-a0e39f21c11f6a62c5ab.js","114276838955818":"component---src-layouts-index-js-8db460f2702972e7e78d.js"}/*]]>*/</script><script>/*<![CDATA[*/!function(e,t,r){function n(){for(;d[0]&&"loaded"==d[0][f];)c=d.shift(),c[o]=!i.parentNode.insertBefore(c,i)}for(var s,a,c,d=[],i=e.scripts[0],o="onreadystatechange",f="readyState";s=r.shift();)a=e.createElement(t),"async"in i?(a.async=!1,e.head.appendChild(a)):i[f]?(d.push(a),a[o]=n):e.write("<"+t+' src="'+s+'" defer></'+t+">"),a.src=s}(document,"script",["/commons-403258ad126d5c26671b.js","/app-8a94241607d296c0b22a.js","/path---ngrx-router-store-408b3b60e2416bea4264.js","/component---src-templates-blog-post-js-0668ad1c8e9fa38db975.js","/component---src-layouts-index-js-8db460f2702972e7e78d.js"])/*]]>*/</script></body></html>
